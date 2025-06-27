@@ -1128,6 +1128,9 @@ footer {
   .others__container {
     grid-template-columns: 1fr;
   }
+  .services-page__content {
+    grid-template-columns: 1fr;
+  }
   .footer__content {
     grid-template-columns: repeat(2, 1fr);
   }
