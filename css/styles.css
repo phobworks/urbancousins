@@ -780,9 +780,28 @@ footer {
   color: var(--color-primary);
 }
 
+.footer__others {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 3rem;
+}
+
 .newletter__container {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   text-align: center;
+}
+
+.member__logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  width: auto;
+}
+
+.newletter__container small {
+  color: var(--white-color);
 }
 
 .newletter__container form input,
@@ -1134,6 +1153,9 @@ footer {
   .footer__content {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer__others {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1201,5 +1223,8 @@ footer {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1;
+  }
+  .member__logo {
+    gap: 1rem;
   }
 }
