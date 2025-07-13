@@ -795,7 +795,7 @@ footer {
 
 .member__logo {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   width: auto;
 }
