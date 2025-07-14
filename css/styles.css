@@ -78,6 +78,10 @@ a:hover {
   color: var(--color-primary);
 }
 
+.nav__links a.active {
+  color: var(--color-primary);
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
